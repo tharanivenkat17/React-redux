@@ -4,6 +4,7 @@ import { RootState } from "../../../app/store";
 import { resetLogin, updateLogin } from "./loginadminSlice";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import '../Fetch.css';
 
 const LoginAdmin: React.FC = () => {
     const navigate = useNavigate();
@@ -71,13 +72,7 @@ const LoginAdmin: React.FC = () => {
                         <tr>
                             <td></td>
                             <td>
-                                <button 
-                                    type="submit" 
-                                    style={{
-                                        marginLeft: '50px', 
-                                        marginTop: '10px'
-                                    }}
-                                > Login </button>
+                                <button type="submit"> Login </button>
                             </td>
                         </tr>
                     </tbody>
