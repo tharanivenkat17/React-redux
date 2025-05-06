@@ -1,0 +1,89 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "siva",
+      "email": "siva@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "tharani",
+      "email": "tharani@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "jo",
+      "email": "jo@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "kavi",
+      "email": "kavi@gmail.com"
+    }
+  ],
+  "loginAdmin": [
+    {
+      "email":"admin1234@gmail.com",
+      "password": "Admin@987",
+      "id":1
+    }
+  ],
+  "employeeData": [
+    {
+      "name": "siva",
+      "email": "siva@gmail.com",
+      "employeeID": "ABC1234",
+      "branch": "Insurance",
+      "designation": "Developer",
+      "id": 1
+    },
+    {
+      "name": "tharani",
+      "email": "tharani@gmail.com",
+      "employeeID": "ABC1254",
+      "branch": "Development",
+      "designation": "React-redux Developer",
+      "id": 2
+    },
+    {
+      "name": "Jo",
+      "email": "jo@gmail.com",
+      "employeeID": "ABC1286",
+      "branch": "Development",
+      "designation": "React-redux Developer",
+      "id": 3
+    },
+    {
+      "name": "kavi",
+      "email": "kavi@gmail.com",
+      "employeeID": "ABC1283",
+      "branch": "Development",
+      "designation": "Developer",
+      "id": 4
+    },
+    {
+      "name": "arun",
+      "email": "arun@gmail.com",
+      "employeeID": "ABC1297",
+      "branch": "Insurance",
+      "designation": "Developer",
+      "id": 5
+    },
+    {
+      "name": "karthi",
+      "email": "karthi@gmail.com",
+      "employeeID": "ABC1290",
+      "branch": "Insurance",
+      "designation": "Developer",
+      "id": 6
+    },
+    {
+      "name": "sandhiya",
+      "email": "sandhiya@gmail.com",
+      "employeeID": "ABC1256",
+      "branch": "Insurance",
+      "designation": "Developer",
+      "id": 7
+    }
+  ]
+}
