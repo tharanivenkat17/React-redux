@@ -4,6 +4,7 @@ import usersReducer from "../features/Users/usersSlice";
 import formReducer from "../features/Form/formSlice";
 import fetchUserDataReducer from "../features/FetchEmployeeData/fetchdataSlice";
 import loginadminReducer from "../features/FetchEmployeeData/LoginAdmin/loginadminSlice";
+import todoReducer from "../features/Todo/todoSlice"
 
 export const store = configureStore({
     reducer : {
@@ -11,7 +12,8 @@ export const store = configureStore({
         users : usersReducer,
         form : formReducer,
         fetchUserData: fetchUserDataReducer,
-        login : loginadminReducer
+        login : loginadminReducer,
+        todo : todoReducer
     }
 })
 

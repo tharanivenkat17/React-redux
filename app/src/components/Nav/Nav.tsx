@@ -6,6 +6,7 @@ import EmployeeList from '../../features/FetchEmployeeData/EmployeeList';
 import Counter from '../../features/Counter/Counter';
 import Form from '../../features/Form/Form';
 import './Nav.css';
+import Todo from '../../features/Todo/Todo';
 
 const Nav: React.FC = () => {
   return (
@@ -16,7 +17,8 @@ const Nav: React.FC = () => {
           <Link to="/form">Employee Data Form</Link> {' '}
           <Link to="/loginadmin">Employees List</Link> {' '}
           <Link to="/users">Static Users Data</Link> {' '}
-          <Link to="/counter">Counter App</Link>
+          <Link to="/counter">Counter App</Link> {' '}
+          <Link to="/todo">Todo List</Link>
         </div>
       </nav>
 
@@ -27,6 +29,7 @@ const Nav: React.FC = () => {
         <Route path="/employees" element={<EmployeeList />} />
         <Route path="/counter" element={<Counter />} />
         <Route path="/form" element={<Form />} />
+        <Route path="/todo" element={<Todo />} />
       </Routes>
     </div>
   );
