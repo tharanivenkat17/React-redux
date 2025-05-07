@@ -9,7 +9,7 @@ import '../Fetch.css';
 const LoginAdmin: React.FC = () => {
     const navigate = useNavigate();
     const dispatch = useDispatch();
-    const { email, password, error } = useSelector((state: RootState) => state.login);
+    const { email, password } = useSelector((state: RootState) => state.login);
 
     const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
         const field = event.target.name as 'email' | 'password';

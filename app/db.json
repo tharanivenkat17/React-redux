@@ -23,9 +23,9 @@
   ],
   "loginAdmin": [
     {
-      "email":"admin1234@gmail.com",
+      "email": "admin1234@gmail.com",
       "password": "Admin@987",
-      "id":1
+      "id": 1
     }
   ],
   "employeeData": [
@@ -84,6 +84,14 @@
       "branch": "Insurance",
       "designation": "Developer",
       "id": 7
+    },
+    {
+      "name": "siva",
+      "email": "siva1@gmail.com",
+      "employeeID": "ABC1259",
+      "branch": "Insurance",
+      "designation": "React-redux Developer",
+      "id": 8
     }
   ]
 }
