@@ -55,7 +55,7 @@ const Form: React.FC = () => {
             }
         }
         else {
-            alert("Email and Employee ID should not match with previous data");
+            alert("Enter Data should not match with previous data");
         }
     }
 

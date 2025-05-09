@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../app/store";
 import { addTodo, toggleTodo, removeTodo } from "../Todo/todoSlice";
 
-const Todo = () => {
+const Todo: React.FC = () => {
     const [text, setText] = useState('');
     const dispatch = useDispatch();
     const todos = useSelector((state: RootState) => state.todo)
@@ -22,7 +22,7 @@ const Todo = () => {
                 type="text"
                 value={text}
                 onChange={e => setText(e.target.value)}
-                placeholder="Enter Text"
+                placeholder="Enter Todo Items"
             />
             <button onClick={handleAdd}>Add</button>
             <ul>

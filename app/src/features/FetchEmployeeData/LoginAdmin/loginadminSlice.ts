@@ -1,10 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit'
-
-interface LoginState {
-    email: string;
-    password: string;
-    error: string;
-}
+import { LoginState } from '../../../types/FetchEmployeeData';
 
 type LoginKey = keyof LoginState;
 

@@ -1,10 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-
-interface TodoState {
-    id: number;
-    text: string;
-    complete: boolean;
-}
+import { TodoState } from "../../types/Todo";
 
 const initialState: TodoState[] = [];
 

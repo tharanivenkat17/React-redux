@@ -1,17 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit"
+import { FormData } from "../../types/Form";
 
-interface FormState {
-    name: string;
-    email: string;
-    employeeID: number | string;
-    branch: string;
-    designation: string, 
-    error: string
-}
+type FieldKey = keyof FormData;
 
-type FieldKey = keyof FormState;
-
-const initialState: FormState = {
+const initialState: FormData = {
     name: '',
     email: '',
     employeeID: '',
@@ -27,7 +19,7 @@ const formSlice = createSlice({
         updateField:
             (state, action: { payload: { field: FieldKey, value: string | number } } ) => {
                 const { field, value } = action.payload;
-                state[field] = value as FormState[FieldKey]; 
+                state[field] = value as FormData[FieldKey]; 
             },
         resetField: () => initialState
     }

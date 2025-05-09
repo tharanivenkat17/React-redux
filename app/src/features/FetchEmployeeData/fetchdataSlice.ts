@@ -1,20 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
-
-interface User {
-    id: number;
-    name: string;
-    email: string;
-    employeeID: string | number;
-    branch: string;
-    designation: string;
-}
-
-interface UsersState {
-    data: User[];
-    status: 'idle' | 'loading' | 'success' | 'failed';
-    error: string | null;
-}
+import { UsersState } from "../../types/FetchEmployeeData";
 
 const initialState: UsersState = {
     data: [],
